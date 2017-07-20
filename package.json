@@ -1,0 +1,51 @@
+{
+  "name": "angular2-google-recaptcha",
+  "version": "1.0.3",
+  "description": "angular2-google-recaptcha is a simple congigurable angular2 directive",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajan-g/angular2-google-recaptcha.git"
+  },
+  "keywords": [
+    "angular2-google-recaptcha",
+    "google-recaptcha",
+    "ng2-google-recaptcha",
+    "ng2-recaptcha",
+    "ng2-captcha",
+    "angular2-captcha"
+  ],
+ "dependencies": {
+    "@angular/common": "^2.0.0-rc.4",
+    "@angular/compiler": "^2.0.0-rc.4",
+    "@angular/core": "^2.0.0-rc.4",
+    "@angular/platform-browser": "^2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.4",
+    "@angular/upgrade": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "systemjs": "0.19.27",
+    "core-js": "^2.4.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12",
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  },
+  "author": "Rajan G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajan-g/angular2-google-recaptcha/issues"
+  },
+  "homepage": "https://github.com/rajan-g/angular2-google-recaptcha#readme"  
+}
